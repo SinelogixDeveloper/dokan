@@ -1,0 +1,10 @@
+ALTER TABLE `products` CHANGE `best_seller` `best_seller` INT(11) NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `created_by_name` `created_by_name` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `most_rating` `most_rating` INT(11) NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `new_arrival` `new_arrival` INT(11) NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `product_qty` `product_qty` INT(11) NOT NULL DEFAULT '0';
+ALTER TABLE `products` CHANGE `product_images` `product_images` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `from_date` `from_date` DATE NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `to_date` `to_date` DATE NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `product_price` `product_price` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `products` CHANGE `created_at` `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP;

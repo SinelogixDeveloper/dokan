@@ -1,0 +1,1 @@
+ALTER TABLE `products` ADD `product_brand` INT(11) NULL AFTER `created_by_name`;

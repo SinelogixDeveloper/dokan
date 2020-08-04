@@ -1,0 +1,1 @@
+ALTER TABLE `brands` ADD `user_id` INT(11) NULL DEFAULT NULL AFTER `image`;
